@@ -1,0 +1,106 @@
+<!--
+    When putting this page through the validator, I get a warning about some sections not having headers. In my past web class my 
+    instructor said it was still valid... I apologize if this is incorrect. 
+
+    Index-only nav seems to look wildly different in the Edge vs Chrome. The height is set to (100vh - 50rem) to look correct on chrome, but (100vh - 55rem) on Edge. Please let me know why this is (if you know) when giving feedbck. Thanks.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>ABC Bank - Home</title>
+
+    <!-- Meta Information -->
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+        <!--top level nav bar-->
+        <nav>
+            <ul>
+                <li><a href="#">Personal Banking</a></li>
+                <li><a href="#">Small Business</a></li>
+                <li><a href="#">Commercial</a></li>
+                <li><a href="#">Investors</a></li>
+            </ul>
+        </nav>
+        <!--logo and primary nav bar-->
+        <div class="wide-nav wide-flex">
+            <h1><a href="#">ABC Bank</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="banking.html">Banking Your Way</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero hero-home">
+            <div class="wide-flex">
+                <div class="container">
+                    <h2>Empowering your financial future.</h2>
+                </div>
+            </div>
+        </section>
+        
+        <!--INDEX-NAV-->
+        <section class="index-nav">
+            <ul class="wide-flex">
+                <li class="i-card"><a href="#">Login/Register to MyAccount</a></li>
+                <li class="i-card"><a href="">Bank Accounts</a></li>
+                <li class="i-card"><a href="">Credit Cards</a></li>
+                <li class="i-card"><a href="">Mortgages</a></li>
+                <li class="i-card"><a href="">Insurance</a></li>
+                <li class="i-card"><a href="">Customer Service</a></li>
+            </ul>
+        </section>
+    
+    
+        <!--page contents-->
+        <section class="container mission-statement">
+            <div>
+                <h2>Our mission; your goals.</h2>
+                <p>Our mission is to provide our customers with the highest level of financial services and support.</p>
+                <p>We understand that managing your finances can be complicated, but with our online banking tools and dedicated customer service team, we make it easy for you to take control of your money.</p>
+                <img src="./img/index-stats.webp" alt="A desk,scattered with statistic papers.">
+                <button>Learn More</button>
+            </div>
+            <aside>
+                <h3>By The Numbers</h3>
+                <h3>Take control.</h3>
+                <p>96% of our customers report increased financial control and organization after switching to our online banking platform.</p>
+                <h3>A world-class mobile experience.</h3>
+                <p>92% of customers who have used our mobile app say it makes managing their finances easier and more convenient.</p>
+                <h3>Lower fees.</h3>
+                <p>Over 75% of customers have reported lower fees and better interest rates compared to their previous bank.
+                </p>
+                <h3>Customer service.</h3>
+                <p>Our dedicated customer service team has a satisfaction rating of 98%, with customers praising their helpfulness and expertise.</p>
+                <h3>Bank with confidence.</h3>
+                <p>90% of customers say they feel more confident in their financial future after working with our team of financial experts.</p>
+                
+                <button>Learn More About Us</button>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 ABC Bank.</p>
+        <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact An Advisor</a></li>
+            <li><a href="#">Privacy Statement</a></li>
+            <li><a href="#">Careers</a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
